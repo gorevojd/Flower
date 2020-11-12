@@ -1,0 +1,53 @@
+version(1);
+
+project_name = "Flower";
+
+patterns = {
+	"*.cpp",
+	"*.h",
+	"*.bat",
+	"*.4coder",
+	"*.vs",
+	"*.fs",
+};
+
+load_paths = {
+	{
+		{
+			{"..\\Code\\", .relative = true, .recursive = true, },
+			{"..\\Misc\\", .relative = true, .recursive = true, },
+			{"..\\Data\\Shaders\\", .relative = true, .recursive = true, },
+		}, .os = "win"
+	},
+};
+
+command_list = {
+	{
+		.name = "build",
+		.out = "*compilation*",
+		.footer_panel = false,
+		.save_dirty_files = true,
+		.cursor_at_end = true,
+		.cmd = {
+			{
+				"..\\Code\\build.bat", .os = "win"
+			},
+		},
+	},
+
+	{
+		.name = "run",
+		.out = "*run*",
+		.footer_panel = false,
+		.save_dirty_files = false,
+		.cursor_at_end = true,
+		.cmd = {
+			{
+				"..\\Build\\Flower.exe", .os = "win"
+			},
+		},
+	},
+};
+
+fkey_command[1] = "build";
+fkey_command[5] = "run";
