@@ -1,4 +1,5 @@
 Build/*
+assimp-master/
 !Build/glew32.dll
 !Build/SDL2.dll
 
