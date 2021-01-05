@@ -1,0 +1,12 @@
+{
+	"TestGame": {
+		"FileName": "test_game.cpp",
+		"InitMethod": "TestGameInit",
+		"UpdateMethod": "TestGameUpdate"
+	},
+	"GraphShow": {
+		"FileName": "graph_show.cpp",
+		"InitMethod": "GraphShowInit",
+		"UpdateMethod": "GraphShowUpdate"
+	}
+}
