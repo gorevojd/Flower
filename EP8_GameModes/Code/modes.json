@@ -1,0 +1,17 @@
+{
+	"TestGame": {
+		"FileName": "test_game.cpp"
+	},
+
+	"GraphShow": {
+		"FileName": "graph_show.cpp"
+	},
+
+	"AssetInspector": {
+		"FileName": "asset_inspector.cpp"
+	},
+
+	"RubiksCube": {
+		"FileName": "rubiks_cube.cpp"
+	}
+}
