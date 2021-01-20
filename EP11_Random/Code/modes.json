@@ -1,0 +1,13 @@
+{
+	"TestGame": {
+		"FileName": "mode_test_game.cpp"
+	},
+
+	"GraphShow": {
+		"FileName": "mode_graph_show.cpp"
+	},
+
+	"RubiksCube": {
+		"FileName": "mode_rubiks.cpp"
+	},
+}
